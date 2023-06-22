@@ -8,69 +8,73 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 body {
-  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100%;
   margin: 0;
-  background: #261c33;
   overflow: hidden;
-  display: flex; 
-  align-items: center; 
-  justify-content: center 
+  background: #23494e;
+  font-family: sans-serif;
 }
 
 h2 {
-  color: #8d81f3;
-  text-align: center;
-  font-size: 40px;
   margin: 20px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
 }
 main {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 420px;
+  justify-content: space-around;
   max-width: 768px;
+  height: 420px;
   margin: 0 auto;
-  font-family: monospace, sans-serif;
   font-size: 22px;
+  font-family: monospace, sans-serif;
 }
-main label{
+main label {
   display: block;
 }
 main input[type="range"] {
   display: block;
-  margin-bottom: 10px;
   width: 200px;
+  margin-bottom: 10px;
+  accent-color: #a096f5;
 }
 section.settings {
-  width: 50%;
   z-index: 2;
+  width: 50%;
 }
 .box-container {
   padding: 50px;
-  border: 1px solid #8d81f3;
+  border: 1px solid #a096f5;
 }
 .box {
   width: 150px;
   height: 150px;
-  background: #8d81f3;
+  background: #81e8f3;
 }
 
 button {
-  background-color: #8d81f3;
-  color: #fff;
   display: inline-block;
-  font-size: 20px;
-  padding: 10px;
-  outline: none;
-  border: none;
   margin-right: 10px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #a096f5;
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
 }
 
-label{
+label {
   color: #fff;
 }

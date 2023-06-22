@@ -45,7 +45,7 @@ main input[type="range"] {
   display: block;
   width: 200px;
   margin-bottom: 10px;
-  accent-color: #a096f5;
+  accent-color: #81e8f3;
 }
 section.settings {
   z-index: 2;
@@ -53,7 +53,7 @@ section.settings {
 }
 .box-container {
   padding: 50px;
-  border: 1px solid #a096f5;
+  border: 1px solid #3f8c97;
 }
 .box {
   width: 150px;
@@ -68,7 +68,7 @@ button {
   border: none;
   border-radius: 10px;
   outline: none;
-  background-color: #a096f5;
+  background-color: #3f8c97;
   color: #fff;
   font-weight: 500;
   font-size: 20px;

@@ -74,6 +74,9 @@ button {
   font-size: 20px;
   cursor: pointer;
 }
+button:hover {
+  filter: brightness(90%);
+}
 
 label {
   color: #fff;
